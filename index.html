@@ -12,19 +12,19 @@
         <div id="header-con">
             <div id="main-header" class="grid-con">
                 <div id="header-box1" class="box-color">
-                    <img src="/images/open_logo.svg">
+                    <img src="./images/open_logo.svg">
                 </div>
                 <div id="main-nav" class="box-color">
                     <ul>
                         <li><a href=index.html>Home</a></li>
                         <li><a href="gallery.html">Menu</a></li>
-                        <li>Events</li>
-                        <li>Contact</li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div id="header-box2" class="box-color">
                     <li>
-                        Place Order
+                        <a id="order-now" class="order-now" href="#">Place Order</a>
                     </li>
                 </div>
             </div>
@@ -36,28 +36,31 @@
                     <h2>A Happy Holiday from everyone at the Maple Café!</h2>
                     <p>Everyone here at the Maple Café would like to wish you a happy holidays as well at to tell you that, with jolly times around the corner we have updated our menu so that all can enjoy and warm up this chilly season! </p>
                 </div>
-                <img src="/images/combo.jpg" alt="hot chocolate and a croissant" id="hero-image">
+                <img src="./images/combo.jpg" alt="hot chocolate and a croissant" id="hero-image">
+
             </div>  
 
             <div class="grid-con" id="products">
                 <h2>Menu</h2>
                 <div class="product-box" id="product1">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="./images/cc-muf.jpg" alt="Chocolate Chunk Muffin">
                 </div>
                 <div class="product-box" id="product2">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="./images/wht-nht.jpg" alt="White Hot Chocolate and After Eight treat">
                 </div>
                 <div class="product-box" id="product3">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="./images/french.jpg" alt="Croissant">
                 </div>
             </div>
 
-            <h2 id="about-title">Blandit At Tuctor</h2>
+            <h2 id="about-title">Our Staff</h2>
             <div id="about-con">
                 <div class="grid-con" id="about">
                     <div id="about-text" class="box-color">
+                        <h2>Here at the Maple Café you can be helped by some of our Friendly Staff</h2>
+                        <p>Be served at the Maple Café by one of our many hard working and happy staff members!</p>
                     </div>
-                    <img src="https://via.placeholder.com/674x700" alt="image" id="about-image">
+                    <img src="./images/staff.png" alt="image" id="about-image">
                 </div>
             </div>
             
@@ -65,6 +68,12 @@
                 <div id="contact-text" class="box-color">
                 </div>
                 <div id="contact-form" class="box-color">
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First & Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
                 </div>
             </div> 
         </main>
@@ -72,8 +81,15 @@
         <div id="footer-con">
             <div class="grid-con" id="footer">
                 <div id="footer-logo" class="box-color">
+                    <img src="./images/open_logo.svg">
                 </div>
                 <div id="footer-nav" class="box-color">
+                    <ul>
+                        <li><a href=index.html>Home</a></li>
+                        <li><a href="gallery.html">Menu</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
                 <div id="footer-newsletter1" class="box-color">
                 </div>
